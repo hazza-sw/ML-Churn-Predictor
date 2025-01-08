@@ -17,14 +17,14 @@ The **Churn Prediction Web App** is an interactive tool developed using **Stream
 
 ![Input Form](images/input_form.png)
 
-### **Machine Learning Predictions**
-- **Pre-trained Model**: The app uses a machine learning model (`model.pkl`) trained on customer churn data to make accurate predictions.
-- **Feature Scaling**: Inputs are standardized using a pre-saved scaler (`scaler.pkl`) for consistency with the training data.
-- **Binary Output**:
-  - **"Yes"**: Indicates the customer is likely to churn.
-  - **"No"**: Indicates the customer is unlikely to churn.
+### **Jupyter Notebook**
+- The repository includes a detailed **Jupyter Notebook** (`notebook.ipynb`) that documents the entire machine learning pipeline:
+  - **Data Exploration**: Initial exploration and visualization of the dataset.
+  - **Feature Engineering**: Transforming raw data into meaningful inputs for the model.
+  - **Model Training**: Training a classification model to predict churn.
+  - **Evaluation**: Assessing model performance using metrics such as accuracy and precision.
 
-![Prediction Output](images/prediction_output.png)
+![Jupyter Notebook Workflow](images/jupyter_notebook_workflow.png)
 
 ### **Clean Dashboard Design**
 - Built with **Streamlit**, the app offers an intuitive and visually appealing layout.
@@ -37,13 +37,14 @@ The **Churn Prediction Web App** is an interactive tool developed using **Stream
 - **Streamlit**: Framework for creating the interactive web app.
 - **scikit-learn**: For model training and feature preprocessing.
 - **Pandas**: For data manipulation and preprocessing.
+- **Jupyter Notebook**: For prototyping, data exploration, and model training.
 
 ## Files in the Repository
 - **`app.py`**: The main script for running the Streamlit app.
 - **`customer_churn_data.csv`**: Dataset used for training the machine learning model.
-- **`model.pkl`**: Pre-trained machine learning model.
-- **`scaler.pkl`**: Pre-saved scaler for feature preprocessing.
-- **`notebook.ipynb`**: Jupyter Notebook for data exploration, preprocessing, and model training.
+- **`model.pkl`**: Trained machine learning model.
+- **`scaler.pkl`**: Scaler for feature preprocessing.
+- **`notebook.ipynb`**: Jupyter Notebook documenting the machine learning pipeline.
 
 ## Screenshot
 ![Churn Prediction Web App](images/app_screenshot.png)
