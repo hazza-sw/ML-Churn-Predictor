@@ -35,7 +35,7 @@ The **Churn Prediction Web App** is an interactive platform that predicts whethe
 ![Model Accuracy](flow4.jpg)
 ![GridSearchCV Tuning Results](flow5.jpg)
 
-[**Explore the complete data analysis and model development process in the Jupyter Notebook**](https://github.com/hazza-sw/ML-Churn-Predictor/notebook.ipynb)
+[**Explore the complete data analysis and model development process in the Jupyter Notebook**](https://github.com/hazza-sw/ML-Churn-Predictor/blob/main/notebook.ipynb)
 
 ### **Streamlit Dashboard**
 - The dashboard provides predictions based on user inputs with a focus on simplicity and usability.
