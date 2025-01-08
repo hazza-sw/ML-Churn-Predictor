@@ -32,6 +32,10 @@ The **Churn Prediction Web App** is an interactive platform that predicts whethe
 ![Data Visualization - Churn Distribution](flow1.jpg)
 ![Data Visualization - Contract Type Analysis](flow2.jpg)
 ![Monthly Charges Histogram](flow3.jpg)
+![Model Accuracy](flow4.jpg)
+![GridSearchCV Tuning Results](flow5.jpg)
+
+[**Explore the complete data analysis and model development process in the Jupyter Notebook**](https://github.com/hazza-sw/ML-Churn-Predictor/notebook.ipynb)
 
 ### **Streamlit Dashboard**
 - The dashboard provides predictions based on user inputs with a focus on simplicity and usability.
@@ -52,6 +56,6 @@ The **Churn Prediction Web App** is an interactive platform that predicts whethe
 - **`model.pkl`**: Pre-trained logistic regression model.
 - **`scaler.pkl`**: Scaler for preprocessing input features.
 - **`notebook.ipynb`**: Jupyter Notebook documenting the full machine learning workflow.
-- **Images Folder**:
+- **Images**: 
   - `flow1.jpg`, `flow2.jpg`, `flow3.jpg`, `flow4.jpg`, `flow5.jpg`: Visualizations from the Jupyter Notebook.
   - `input.jpg`, `full_pageview.jpg`: App interface screenshots.
