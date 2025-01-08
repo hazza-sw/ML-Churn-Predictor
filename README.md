@@ -15,7 +15,7 @@ The **Churn Prediction Web App** is an interactive platform that predicts whethe
   - **Gender**
 - A clean and intuitive design makes it accessible for non-technical users.
 
-![Input Form](ML-Churn-Predictor/input.jpg)
+![Input Form](input.jpg)
 
 ### **Data Analysis with Jupyter Notebook**
 - A **Jupyter Notebook** (`notebook.ipynb`) is included for detailed data exploration and model development:
@@ -29,15 +29,15 @@ The **Churn Prediction Web App** is an interactive platform that predicts whethe
   - **Performance Metrics**:
     - Models evaluated using accuracy scores and confusion matrices.
 
-![Data Visualization - Churn Distribution](ML-Churn-Predictor/flow1.jpg)
-![Data Visualization - Contract Type Analysis](ML-Churn-Predictor/flow2.jpg)
-![Monthly Charges Histogram](ML-Churn-Predictor/flow3.jpg)
+![Data Visualization - Churn Distribution](flow1.jpg)
+![Data Visualization - Contract Type Analysis](flow2.jpg)
+![Monthly Charges Histogram](flow3.jpg)
 
 ### **Streamlit Dashboard**
 - The dashboard provides predictions based on user inputs with a focus on simplicity and usability.
 - Powered by a pre-trained logistic regression model (`model.pkl`) and scaled features using `scaler.pkl`.
 
-![Full App View](ML-Churn-Predictor/full_pageview.jpg)
+![Full App View](full_pageview.jpg)
 
 ## Technologies Used
 - **Python**: Core programming language for backend and model development.
